@@ -1,1 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/kalkulator"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/val1"
+        android:hint="@string/masukan_angka"
+        android:minHeight="48dp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/val2"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp"
+        android:inputType="number"
+        android:hint="@string/masukan_angka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonpenambahan"
+        android:layout_marginTop="10dp"
+        android:text="@string/penambahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonpengurangan"
+        android:layout_marginTop="10dp"
+        android:text="@string/pengurangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/buttonperkalian"
+        android:layout_marginTop="10dp"
+        android:text="@string/perkalian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/buttonpembagian"
+        android:layout_marginTop="10dp"
+        android:text="@string/pembagian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvhasil"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:text="HASIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
+
+
+
+
+
 
